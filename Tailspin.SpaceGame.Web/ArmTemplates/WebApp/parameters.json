@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "f4cca944-60f7-4b3c-af2e-d4285e864516"
+        },
+        "name": {
+            "value": "tailspin-space-game-web-arm"
+        },
+        "location": {
+            "value": "Southeast Asia"
+        },
+        "hostingPlanName": {
+            "value": "ASP-tailspinspacegameclassicrg-807e"
+        },
+        "serverFarmResourceGroup": {
+            "value": "tailspin-space-game-classic-rg"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|5.0"
+        }
+    }
+}
